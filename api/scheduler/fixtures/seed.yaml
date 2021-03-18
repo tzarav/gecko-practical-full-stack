@@ -1,0 +1,36 @@
+- model: scheduler.inspection
+  pk: 1
+  fields:
+    title: EKPC Boiler 2
+    start_date: 2020-11-04
+    end_date: 2020-11-06
+- model: scheduler.inspection
+  pk: 2
+  fields:
+    title: BP Tank 1000
+    start_date: 2020-11-05
+    end_date: 2020-11-10
+- model: scheduler.inspection
+  pk: 3
+  fields:
+    title: Saint Patricks 
+    start_date: 2021-03-17
+    end_date: 2021-03-17
+- model: scheduler.maintenance
+  pk: 4
+  fields:
+    title: Sain Patricks Daze
+    description: initial checkup
+    start_date: 2021-03-18
+- model: scheduler.maintenance
+  pk: 5
+  fields:
+    title: second test
+    description: second checkup
+    start_date: 2021-04-18
+- model: scheduler.maintenance
+  pk: 6
+  fields:
+    title: third test
+    description: third checkup
+    start_date: 2021-03-18
